@@ -50,16 +50,19 @@ export default function MetaHead() {
           `,
         }}
       />
+
       <Script
         defer
         src="https://cdn.swygbro.com/public/widget/swyg-widget.js"
       ></Script>
       <meta property="og:article:author" content="홀랑에 홀랑 빠져봐!" />
+
+      {/* 구글 Ads */}
       <Script
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1919598055512436"
         crossOrigin="anonymous"
-      ></Script>
+      />
     </Head>
   );
 }
